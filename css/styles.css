@@ -43,7 +43,7 @@ a {
 
 .header-nav {
   display: flex;
-  align-item: center;
+  align-items: center;
 }
 
 .logo {
@@ -94,7 +94,7 @@ a {
 }
 .contacts-link {
   display: block;
-  padding: 24px o;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
