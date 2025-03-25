@@ -111,9 +111,7 @@ a {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.container {
- 
-}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -149,14 +147,28 @@ a {
 /* ---------FEATURES---------  */
 
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: normal;
+}
 .features-list {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
 }
-
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
-
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
